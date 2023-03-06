@@ -8,6 +8,12 @@
     border-bottom: 1px ridge;
     min-height:400px;
    }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
 .footer{
     background-color: #D1C4E9;
     margin:0px auto;
@@ -37,9 +43,39 @@
 .corporate{
     width: 100%;
 }
+.card{
+    margin: 0 auto;
+    float: none;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-body{
+    padding: 0;
+}
+.card-title{
+    color: #ffffff;
+    background-color: #ffc107;
+}
+label{
+    vertical-align: middle;
+}
+.reservation-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.reservation{
+    flex-basis: 50%;
+}
+.badge-lg{
+    font-size:1em;
+}
 
 @media only screen and (max-width: 576px) {
     .history{
+        flex-basis: 100%;
+    }
+    .reservation{
         flex-basis: 100%;
     }
 }
