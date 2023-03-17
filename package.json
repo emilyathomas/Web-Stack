@@ -32,11 +32,15 @@
   "homepage": "https://github.com/emilyathomas/Web-Stack#readme",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "graceful-fs": "^4.2.10",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^5.1.0",
     "jquery": "^3.3.1",
     "lite-server": "^2.6.1",
     "popper.js": "^1.12.9"
   },
   "devDependencies": {
+    "browser-sync": "^2.23.6",
     "grunt": "^1.0.2",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^1.1.0",
@@ -51,6 +55,7 @@
     "grunt-sass": "^3.1.0",
     "grunt-usemin": "^3.1.1",
     "jit-grunt": "^0.10.0",
+    "node-sass": "^4.14.1",
     "onchange": "^3.3.0",
     "parallelshell": "^3.0.2",
     "rimraf": "^2.6.2",

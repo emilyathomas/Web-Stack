@@ -21,6 +21,11 @@ $carousel-item-height: 300px;
     min-height:400px;
 }
 
+.contentContainer{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .footer{
     background-color: $background-pale;
     @include zero-margin(20px, 0px);
@@ -30,6 +35,30 @@ $carousel-item-height: 300px;
     @include zero-margin(70px,30px);
     background: $background-light ;
     color:floralwhite;
+}
+
+.form-row{
+    width: auto;
+}
+
+.radio{
+    flex: 1 0 auto;
+    padding-left: 5px;
+    display:flex;
+    flex-direction: row;
+}
+
+.guestradio{
+    margin: 0;
+}
+
+.radiolabel{
+    margin: 0;
+}
+
+.reservationrow{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 address{
@@ -43,6 +72,26 @@ body{
     z-index:0;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.topCloseBtn{
+    color:$background-pale;
+}
+
+.modal-header{
+    background-color: $background-dark;
+    color: $background-pale;
+}
+
+.modal-body{
+    background-color: $background-pale;
+}
+
 .navbar-dark {
     background-color: $background-dark;
 }
@@ -54,8 +103,23 @@ body{
     padding: 10px;
 }
 
+.sectionbtn input[type="radio"]{
+    display: none;
+}
+
+.sectionbtn label{
+    background-color: red;
+    text-align: center;
+    color: white;
+    border: 0px;
+}
+
+.sectionbtn label.active{
+    background-color: green;
+}
+
 .carousel {
-    background:$background-dark;
+    background: $background-dark;
     .carousel-item {
         height: $carousel-item-height;
         img {
